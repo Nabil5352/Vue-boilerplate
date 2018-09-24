@@ -12,7 +12,8 @@ function resolve(dir){
 }
 
 module.exports = {
-	mode: 'development',
+	// development = for development purpose, production = for production purpose
+	mode: 'production',
 	entry: [
 		'./src/app.js'
 	],
